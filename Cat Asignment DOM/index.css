@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg-container{
+    height: 100vh;
+    width: 100vw;
+    background-color:#000000;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blub{
+    
+    width: 100px;
+}
+.cat{
+    width: 200px;
+    margin: 20px;
+    
+}
+.btn-card{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.content{
+    font-size: 20px;
+    font-weight: bold;
+}
+.off-btn{
+    background-color: grey;
+    width: 50px;
+
+}
+.on-btn{
+    background-color: red;
+    width: 50px;
+
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: antiquewhite;
+}
